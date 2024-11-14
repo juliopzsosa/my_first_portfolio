@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/portfolio/' element={<Root />} />
+        <Route path='/nord_portfolio/' element={<Root />} />
         <Route path='*' element={<Page404 />} />
       </Routes>
     </Router>
